@@ -15,15 +15,19 @@ var artical={
                         </p> `
 
 },
-`artical-two':{ 
+`artical-two`: { 
     
 
     title:' Artical Two | RawatP',
     heading:'Artical Two',
     date:'feb 20 2017',
-    content: `<p>
+    content: `
+    
+    <p>
                          This is the content of my Second artical.This is the content of my Second artical.This is the content of my Second artical.This is the content of my Second artical.This is the content of my Second artical.
-                        </p> `},
+                        </p>`
+                        },
+
 `artical-three`:{
     title:' Artical Three | RawatP',
     heading:'Artical Three',
