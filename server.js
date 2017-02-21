@@ -5,7 +5,9 @@ var path = require('path');
 var app = express();
 app.use(morgan('combined'));
 
-var artical={   
+var artical=
+
+{   
  `artical-one`: {
     title:' Artical one | RawatP',
     heading:'Artical One',
@@ -14,7 +16,7 @@ var artical={
                          This is the content of my first artical.This is the content of my first artical.This is the content of my first artical.This is the content of my first artical.This is the content of my first artical.
                         </p> `
 
-  },
+     },
 `artical-two`: { 
     
 
@@ -36,8 +38,7 @@ var artical={
                          This is the content of my Third artical.This is the content of my Third artical.This is the content of my Third artical.This is the content of my Third artical.This is the content of my Third artical.
                         </p> `
     
-},
-
+}
 };
 
 
