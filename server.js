@@ -20,7 +20,7 @@ var artical={
 
     title:' Artical Two | RawatP',
     heading:'Artical Two',
-    date:'feb 20 2017',
+    date:'feb 21 2017',
     content: `
     
     <p>
@@ -31,7 +31,7 @@ var artical={
 `artical-three`:{
     title:' Artical Three | RawatP',
     heading:'Artical Three',
-    date:'feb 20 2017',
+    date:'feb 22 2017',
     content: `<p>
                          This is the content of my Third artical.This is the content of my Third artical.This is the content of my Third artical.This is the content of my Third artical.This is the content of my Third artical.
                         </p> `
@@ -78,7 +78,7 @@ var htmlTemplate=`
 
 `;
 return htmlTemplate;
-}
+};
 app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
 });
