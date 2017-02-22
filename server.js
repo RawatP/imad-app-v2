@@ -41,7 +41,7 @@ var artical=
 }
 };
 
-
+    
 function createTemplate(data){
 var title=data.title;
 var date=data.date;
@@ -79,7 +79,7 @@ var htmlTemplate=`
 
 `;
 return htmlTemplate;
-};
+}
 
 app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
