@@ -8,7 +8,7 @@ app.use(morgan('combined'));
 var artical=
 
 {   
- 'article-one': {
+ 'articleone': {
     title:' Article one | RawatP',
     heading:'Artical One',
     date:'feb 20 2017',
@@ -17,7 +17,7 @@ var artical=
                         </p> `
 
      },
-'article-two': { 
+'articletwo': { 
     
 
     title:'Article Two | RawatP',
@@ -81,7 +81,7 @@ var htmlTemplate=`
 return htmlTemplate;
 }
 
-app.get('/', function (req, res) {
+app.get('/', function(req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
 });
 
