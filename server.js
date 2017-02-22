@@ -9,7 +9,7 @@ var artical=
 
 {   
  'article-one': {
-    title:' Artical one | RawatP',
+    title:' Article one | RawatP',
     heading:'Artical One',
     date:'feb 20 2017',
     content: `<p>
@@ -20,7 +20,7 @@ var artical=
 'article-two': { 
     
 
-    title:'Artical Two | RawatP',
+    title:'Article Two | RawatP',
     heading:'Artical Two',
     date:'feb 21 2017',
     content: `
@@ -31,7 +31,7 @@ var artical=
                         },
 
 'article-three':{
-    title:'Artical Three | RawatP',
+    title:'Article Three | RawatP',
     heading:'Artical Three',
     date:'feb 22 2017',
     content: `<p>
