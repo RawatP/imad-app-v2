@@ -20,7 +20,7 @@ var artical=
 'artical-two': { 
     
 
-    title:' Artical Two | RawatP',
+    title:'Artical Two | RawatP',
     heading:'Artical Two',
     date:'feb 21 2017',
     content: `
@@ -31,7 +31,7 @@ var artical=
                         },
 
 'artical-three':{
-    title:' Artical Three | RawatP',
+    title:'Artical Three | RawatP',
     heading:'Artical Three',
     date:'feb 22 2017',
     content: `<p>
