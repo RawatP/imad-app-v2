@@ -9,7 +9,7 @@ var articles=
 
 {   
  'article-one': {
-    title:'Article one | RawatP',
+    title:'Article one',
     heading:'Artical One',
     date:'feb 20 2017',
     content: `<p>
