@@ -100,7 +100,7 @@ var names=[];
 app.get('/submit-name/:name',function(req,res)
 {
    //get the name from the request object
-   var name=req.params.name;
+   var name=req.query.name;
    names.push(name);
     //json is way of converting java object into strings
    res.send(JSON.stringify(names)); 
@@ -108,7 +108,7 @@ app.get('/submit-name/:name',function(req,res)
 app.get('/:articleName',function(req,res)
 {
     var articleName=req.param.articleName;
-  res.send(createTemplate(articles[articleName]));
+  res.send(createTemplate(articles[articleName]))   ;
 });
 
 
