@@ -48,7 +48,7 @@ var articles={
 }
 };
 function createTemplate(data){
-    var titl=data.titl;
+    //var titl=data.titl;
     var heading=data.heading;
     var date=data.date;
     var content=data.content;
