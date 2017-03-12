@@ -104,11 +104,6 @@ app.get('/submit-name/:name',function(req,res)
     //json is way of converting java object into strings
    res.send(JSON.stringify(names)); 
 });
-app.get('/:articleName',function(req,res)
-{
-    var articleName=req.param.articleName;
-  res.send(createTemplate(articles[articleName]))   ;
-});
 
 
 app.get('/ui/style.css', function (req, res) {
