@@ -50,6 +50,6 @@ submit.onclick=function()
 
 var nameInput=document.getElementById('name');
 var name=nameInput.value;
-request.open('GET','http://rawatp.imad.hasura-app.io/counter',true);
+request.open('GET','http://rawatp.imad.hasura-app.io/counter'+ name ,true);
     request.send(null);
 };
